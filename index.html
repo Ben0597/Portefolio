@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Diomande Ben - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(26, 26, 26, 0.9);
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #1a73e8;
+        }
+        .hero {
+            height: 100vh;
+            background-image: url('avatar.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        .hero a {
+            background-color: #1a73e8;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .hero a:hover {
+            background-color: #1665cc;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="portfolio_projets.html">Projets</a>
+        <a href="Cv Ben Diomande.pdf" download>CV</a>
+    </nav>
+
+    <section class="hero" id="accueil">
+        <h1>DIOMANDE BEN</h1>
+        <h1>IBRAHIM CISSE</h1>
+        <p>Je résous les pannes avant qu’elles ne deviennent des problèmes.</p>
+        <a href="portfolio_projets.html" style="margin-top:50px;">👉 Voir mes projets</a>
+    </section>
+
+    <section id="a-propos" style="background-color: #f4f7fa; padding: 60px 20px; color: #2e2e2e;">
+        <div style="max-width: 1000px; margin: auto;">
+            <h2 style="text-align: center; font-size: 2.5em; color: #1a73e8; margin-bottom: 20px;">À propos</h2>
+            <p style="font-size: 1.2em; line-height: 1.8; text-align: center; margin-bottom: 40px;">
+                Je m'appelle <strong>Diomande Ben Ibrahim Cissé</strong>, technicien informatique basé à Montréal.<br>
+                Mon parcours m’a permis de naviguer à travers <strong>trois mondes clés</strong> du métier à savoir:
+            </p>
+            <ul style="list-style-type: none; padding-left: 0; font-size: 1.1em; max-width: 700px; margin: auto; margin-bottom: 40px;">
+                <li>🔧 Le <strong>dépannage</strong> en première ligne</li>
+                <li>📡 L’<strong>administration réseau</strong> pour assurer la stabilité des systèmes</li>
+                <li>🛡️ La <strong>cybersécurité</strong> pour protéger l’ensemble</li>
+            </ul>
+            <p style="text-align: center; font-size: 1.1em;">
+                Diplômé en soutien informatique, je suis curieux, rigoureux et toujours en quête d’amélioration.<br>
+                J’aime comprendre les problèmes, y répondre avec méthode, et voir l’impact concret de mes actions.<br>
+                Mon objectif : contribuer à des environnements collaboratifs, performants et sécurisés.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="contact" style="background-color: #1a1a1a; padding: 60px 20px; color: #fff;">
+        <div style="max-width: 800px; margin: auto; text-align: center;">
+            <h2 style="font-size: 2.5em; color: #1a73e8;">Contact</h2>
+            <p style="font-size: 1.1em; margin-bottom: 30px;">
+                Envie de collaborer ? Parlons-en !<br>
+                Vous pouvez me joindre via :
+            </p>
+            <p><strong>Email :</strong> <a href="mailto:benibrahimcisse@gmail.com" style="color: #fff; text-decoration: underline;">benibrahimcisse@gmail.com</a></p>
+            <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/ben-diomande" target="_blank" style="color: #fff; text-decoration: underline;">linkedin.com/in/ben-diomande</a></p>
+        </div>
+    </section>
+
+</body>
+</html>
